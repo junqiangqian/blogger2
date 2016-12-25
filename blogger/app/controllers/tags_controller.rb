@@ -1,5 +1,4 @@
 class TagsController < ApplicationController
-
   def index
     @tags = Tag.all
   end
@@ -14,5 +13,4 @@ class TagsController < ApplicationController
     flash.notice = "Tag '#{@tag.name}' Destroyed!"
     redirect_to tags_path
   end
-
 end
