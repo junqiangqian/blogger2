@@ -196,7 +196,11 @@ DEPENDENCIES
   sorcery
   spring
   spring-watcher-listen (~> 2.0.0)
+<<<<<<< HEAD
   sqlite3 (= 1.3.12)
+=======
+  sqlite3
+>>>>>>> 88916fcf666d437870558d7f135f354f595df1f7
   turbolinks (~> 5)
   tzinfo-data
   uglifier (>= 1.3.0)
